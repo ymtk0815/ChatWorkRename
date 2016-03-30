@@ -1,0 +1,12 @@
+{
+  "name": "ChatWorkRoomRename",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "チャットワークの左側にあるルームリストから、[/ hogehoge ***]を消す拡張",
+  "content_scripts": [
+    {
+      "matches": ["https://kcw.kddi.ne.jp/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
